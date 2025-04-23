@@ -3,8 +3,6 @@ import morgan from 'morgan';
 import helmet from 'helmet';
 import cors from 'cors';
 import fs from 'fs';
-import path from 'path';
-import serverless from 'serverless-http';
 
 import * as middlewares from './middlewares';
 import api from './api';
