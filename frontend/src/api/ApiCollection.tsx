@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const baseAPIUrl = 'http://localhost:5000';
+// const baseAPIUrl = 'http://localhost:5000';
+const baseAPIUrl = 'http://infinity-suit.online:5173';
 
 export const fetchSuppliers = () => {
     return axios.get(`${baseAPIUrl}/suppliers`)
