@@ -4,9 +4,11 @@
   "description": "React Admin Dashboard API",
   "main": "src/index.ts",
   "scripts": {
+    "start:netlify": "./node_modules/.bin/netlify-lambda serve src",
+    "build:netlify": "./node_modules/.bin/netlify-lambda build src",
     "start": "ts-node src/index.ts",
     "dev": "nodemon src/index.ts",
-    "build": "tsc",
+    "build": "echo hello",
     "lint": "eslint --fix src test",
     "test": "jest",
     "typecheck": "tsc --noEmit",
