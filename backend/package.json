@@ -7,7 +7,7 @@
     "start:netlify": "./node_modules/.bin/netlify-lambda serve src",
     "build:netlify": "./node_modules/.bin/netlify-lambda build src",
     "start": "ts-node src/index.ts",
-    "dev": "pm2 nodemon src/index.ts",
+    "dev": "nodemon src/index.ts",
     "build": "tsc",
     "lint": "eslint --fix src test",
     "test": "jest",
