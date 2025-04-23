@@ -7,8 +7,8 @@
     "start:netlify": "./node_modules/.bin/netlify-lambda serve src",
     "build:netlify": "./node_modules/.bin/netlify-lambda build src",
     "start": "ts-node src/index.ts",
-    "dev": "nodemon src/index.ts",
-    "build": "echo hello",
+    "dev": "pm2 nodemon src/index.ts",
+    "build": "tsc",
     "lint": "eslint --fix src test",
     "test": "jest",
     "typecheck": "tsc --noEmit",
@@ -29,7 +29,8 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "helmet": "^7.1.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "pm2": "^6.0.5"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
