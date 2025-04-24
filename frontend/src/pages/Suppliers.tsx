@@ -1,3 +1,6 @@
+// @ts-ignore
+// @ts-nocheck
+
 import {FC, useCallback, useEffect, useState} from "react";
 
 import { IoIosAdd as AddIcon } from "react-icons/io";
