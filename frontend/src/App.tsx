@@ -60,10 +60,10 @@ function App() {
           path: '/',
           element: <Home />,
         },
-        {
-          path: '/supplier-storage-region',
-          element: <Suppliers />,
-        },
+        // {
+        //   path: '/supplier-storage-region',
+        //   element: <Suppliers />,
+        // },
         {
           path: '/profile',
           element: <Profile />,
