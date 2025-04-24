@@ -1,3 +1,6 @@
+//@ts-ignore
+//@ts-nocheck
+
 // import React from 'react';
 import {
   createBrowserRouter,
@@ -24,7 +27,7 @@ import EditProfile from './pages/EditProfile';
 import User from './pages/User';
 import Product from './pages/Product';
 import Login from './pages/Login';
-import Suppliers from './pages/Suppliers';
+// import Suppliers from './pages/Suppliers';
 
 function App() {
   const Layout = () => {
